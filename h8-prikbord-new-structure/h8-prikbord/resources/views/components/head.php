@@ -1,0 +1,6 @@
+<?php require_once 'config/config.php'; ?>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="<?php echo $base_url; ?>/public/css/normalize.css">
+<link rel="stylesheet" href="<?php echo $base_url; ?>/public/css/main.css">
