@@ -23,8 +23,13 @@
         ?>
 
         <ul>
-            <!-- Schrijf hier een foreach die door $berichten loopt -->
-            <li>Hier komt een lijst met berichten.</li>
+            <?php foreach ($berichten as $bericht): ?>
+                <li>
+                    <a href="berichten/edit.php?id=<?php echo $bericht['id']; ?>">
+                        <?php echo $bericht['titel']; ?>
+                    </a>
+                </li>
+            <?php endforeach; ?>
         </ul>
 
     </div>
